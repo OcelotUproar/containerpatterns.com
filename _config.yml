@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title
 url: "http://www.containerpatterns.com/"
 twitter_username: containpatterns
+layout: pattern
 
 # Build settings
 markdown: kramdown

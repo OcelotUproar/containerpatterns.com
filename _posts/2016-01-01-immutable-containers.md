@@ -1,6 +1,7 @@
 ---
 title: Immutable Containers Pattern
-permalink: /immutable-containers
+permalink: /immutable-containers-pattern
+layout: pattern
 ---
 
 # Immutable Containers Pattern

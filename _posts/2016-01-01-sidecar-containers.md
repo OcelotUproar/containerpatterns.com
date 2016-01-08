@@ -1,6 +1,7 @@
 ---
 title: Sidecar Containers Pattern
-permalink: /sidecar-containers
+permalink: /sidecar-containers-pattern
+layout: pattern
 ---
 
 # Sidecar Containers Pattern
