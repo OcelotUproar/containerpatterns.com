@@ -4,16 +4,24 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Patterns</h1>
+  <h1 class="page-heading">Motivation</h1>
+  <p>
+    As we move beyond the hype of containers it's important to share real world usages of containers and the resulting lessons learned. ContainerPatterns.com describes the principals with concrete examples and best practices.
+  </p>
 
-  <ul class="post-list">
+  <h2 class="page-heading">Patterns</h2>
+
+  <div class="clearfix">
     {% for post in site.posts %}
-      <li>
+      <div class="pattern" style="margin-bottom: 20px;">
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 
+  <p>
+    Have additional patterns? Send us a <a href="https://github.com/ocelotuproar/containerpatterns.com" target='_blank'>pull request</a>.
+  </p>
 </div>
